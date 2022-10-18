@@ -71,3 +71,13 @@ header nav ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
 }
+
+#book-of-the-month {
+  background: var(--primary-color);
+}
+
+img {
+  border-radius: 2px 5px 5px 2px;
+  box-shadow: 0 21px 21px rgb(0 0 0 / 50%);
+  border: none;
+}
