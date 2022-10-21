@@ -97,7 +97,6 @@ header nav ul li a:hover {
 /* ///////////////// */
 
 #book-of-the-month {
-  background: var(--primary-color);
   margin: 75px 0;
 }
 
@@ -113,7 +112,9 @@ img {
 /* ///////////////// */
 
 #vote-for-next-book {
+  background: var(--primary-color);
   margin: 75px 0;
+  padding-top: 100px;
 }
 
 #vote-for-next-book img {
