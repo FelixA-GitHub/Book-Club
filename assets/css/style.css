@@ -45,6 +45,7 @@ header h1 {
   color: var(--primary-color);
   margin: 0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding-top: 8px;
 }
 
 header a {
@@ -54,6 +55,7 @@ header a {
 
 header nav {
   margin: 7px 0;
+  padding-top: 8px;
 }
 
 header nav ul {
@@ -83,6 +85,7 @@ header nav ul li a:hover {
 
 #book-of-the-month {
   background: var(--primary-color);
+  margin: 75px 0;
 }
 
 img {
@@ -96,9 +99,34 @@ img {
 /* vote for next book section */
 /* ///////////////// */
 
+#vote-for-next-book {
+  margin: 75px 0;
+}
+
 #vote-for-next-book img {
   border-radius: 3px;
   box-shadow: 0 21px 21px rgb(0 0 0 / 50%);
   width: 200px;
   height: 300px;
+  overflow: hidden;
+}
+
+.book {
+  margin: 50px 0;
+  transition: transform 0.5s ease;
+}
+
+.book img {
+  margin: 0 10%;
+}
+
+.book:hover {
+  transform: scale(1.25);
+}
+
+.book-title {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
 }
