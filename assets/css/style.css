@@ -18,7 +18,10 @@ body,
   color: var(--tertiary-color);
 }
 
-/* apply styles to header */
+/* ///////////////// */
+/* header section */
+/* ///////////////// */
+
 header {
   padding: 20px 35px;
   background-color: var(--tertiary-color);
@@ -74,6 +77,10 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
+/* ///////////////// */
+/* book of the month section */
+/* ///////////////// */
+
 #book-of-the-month {
   background: var(--primary-color);
 }
@@ -81,13 +88,17 @@ header nav ul li a:hover {
 img {
   border-radius: 3px;
   box-shadow: 0 21px 21px rgb(0 0 0 / 50%);
-  width: 300px;
+  width: 325px;
   height: 500px;
 }
+
+/* ///////////////// */
+/* vote for next book section */
+/* ///////////////// */
 
 #vote-for-next-book img {
   border-radius: 3px;
   box-shadow: 0 21px 21px rgb(0 0 0 / 50%);
-  width: 250px;
-  height: 400px;
+  width: 200px;
+  height: 300px;
 }
