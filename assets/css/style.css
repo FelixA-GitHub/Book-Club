@@ -31,10 +31,10 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url();
+  background-image: url(../images/open-book.jpeg);
   background-size: cover;
-  background-position: top;
-  background-attachment: scroll;
+  background-position: center;
+  background-attachment: fixed;
   background-position: 80%;
   z-index: 9999;
 }
@@ -84,13 +84,16 @@ header nav ul li a:hover {
 /* ///////////////// */
 
 #welcome {
-  background-image: url('https://bostonglobe-prod.cdn.arcpublishing.com/resizer/IHurgfWdA_sCEASNzU6nena4HYI=/820x0/filters:focal(3681x1982:3691x1972)/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/H47HVU2CB5DPNBV6Z353AKPXQ4.jpeg');
+  background-image: url(../images/open-book.jpeg);
   background-size: cover;
-  /* background-position: center;
-  background-attachment: fixed;*/
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
   background-position: 80%;
-  padding: 200px 0;
-  color: whitesmoke;
+  padding: 2rem;
 }
 
 /* ///////////////// */
