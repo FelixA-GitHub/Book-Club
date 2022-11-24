@@ -103,7 +103,7 @@ header nav ul li a:hover {
   align-items: flex-start;
   background-attachment: fixed;
   background-position: 80%;
-  padding: 12rem;
+  padding: 8rem;
 }
 
 /* ///////////////// */
@@ -132,7 +132,7 @@ img {
     var(--primary-color)
   );
   margin: 75px 0;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 #vote-for-next-book img {
