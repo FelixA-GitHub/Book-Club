@@ -24,14 +24,14 @@ body,
 
 header {
   padding: 10px 35px;
-  background-color: var(--tertiary-color);
+  background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url(../images/open-book.jpeg);
+  /* background-image: url(../images/open-book.jpeg); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -49,7 +49,7 @@ header h1 {
 }
 
 header a {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
   text-decoration: none;
 }
 
@@ -84,7 +84,8 @@ header nav ul li a:hover {
 /* ///////////////// */
 
 #welcome {
-  background-image: url(../images/open-book.jpeg);
+  /* background-image: url(../images/open-book.jpeg); */
+  background-color: var(--primary-color);
   background-size: cover;
   background-position: center;
   display: flex;
