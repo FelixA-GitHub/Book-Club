@@ -5,9 +5,14 @@
 }
 
 :root {
-  --primary-color: #feed82;
+  --primary-color: #fdf1a0;
   --secondary-color: #024e76;
   --tertiary-color: #3982b2;
+  --fourth-color: whitesmoke;
+}
+
+body {
+  background-color: var(--fourth-color);
 }
 
 body,
@@ -24,7 +29,7 @@ body,
 
 header {
   padding: 10px 35px;
-  background-color: var(--primary-color);
+  background-color: var(--fourth-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -85,7 +90,11 @@ header nav ul li a:hover {
 
 #welcome {
   /* background-image: url(../images/open-book.jpeg); */
-  background-color: var(--primary-color);
+  background-image: linear-gradient(
+    to bottom right,
+    var(--fourth-color),
+    var(--primary-color)
+  );
   background-size: cover;
   background-position: center;
   display: flex;
@@ -117,7 +126,11 @@ img {
 /* ///////////////// */
 
 #vote-for-next-book {
-  background: var(--primary-color);
+  background-image: linear-gradient(
+    to top right,
+    var(--fourth-color),
+    var(--primary-color)
+  );
   margin: 75px 0;
   padding-top: 100px;
 }
