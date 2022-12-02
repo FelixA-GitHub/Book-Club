@@ -96,7 +96,13 @@ header nav ul li a:hover {
   align-items: flex-start;
   background-attachment: fixed;
   background-position: 80%;
-  padding: 8rem;
+  padding: 2rem;
+}
+
+#welcome div div img {
+  box-shadow: none;
+  width: fit-content;
+  filter: drop-shadow(6px 4px 4px lightgrey);
 }
 
 /* ///////////////// */
