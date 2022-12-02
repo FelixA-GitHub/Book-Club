@@ -13,11 +13,13 @@
 
 body {
   background-color: var(--fourth-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: var(--tertiary-color);
 }
 
-body,
 .match-font {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   font-size: 20px;
   color: var(--tertiary-color);
@@ -99,10 +101,22 @@ header nav ul li a:hover {
   padding: 2rem;
 }
 
+#welcome div .col-6 {
+  height: 350px;
+}
+
 #welcome div div img {
   box-shadow: none;
   width: fit-content;
+  height: inherit;
   filter: drop-shadow(6px 4px 4px lightgrey);
+}
+
+#welcome div div p {
+  padding: 25%;
+  font-size: 20px;
+  font-weight: lighter;
+  height: inherit;
 }
 
 /* ///////////////// */
