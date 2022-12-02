@@ -107,8 +107,8 @@ header nav ul li a:hover {
 
 #welcome div div img {
   box-shadow: none;
-  width: fit-content;
   height: inherit;
+  width: 35vw;
   filter: drop-shadow(6px 4px 4px lightgrey);
 }
 
