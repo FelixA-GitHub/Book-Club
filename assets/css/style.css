@@ -134,6 +134,15 @@ img {
   height: 500px;
 }
 
+#book-of-the-month .btn {
+  border-radius: 1.5rem;
+  background-color: var(--tertiary-color);
+  color: var(--fourth-color);
+  font-size: larger;
+  margin-top: 2rem;
+  padding: 10px 25px;
+}
+
 /* ///////////////// */
 /* vote for next book section */
 /* ///////////////// */
