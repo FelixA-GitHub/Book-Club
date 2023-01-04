@@ -17,3 +17,11 @@ btnPreview.addEventListener('click', function () {
 btnShelf.addEventListener('click', function () {
   alert('Shelf');
 });
+
+const loveYou = function () {
+  alert('I LOVE YOU ❤️');
+};
+
+const love = document.querySelector('.love');
+
+love.addEventListener('click', loveYou);
