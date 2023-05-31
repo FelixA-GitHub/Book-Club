@@ -18,10 +18,11 @@ btnShelf.addEventListener('click', function () {
   alert('Shelf');
 });
 
+//test function for alert
 const loveYou = function () {
   alert('I LOVE YOU ❤️');
 };
 
 const love = document.querySelector('.love');
-
+//event listener for text function
 love.addEventListener('click', loveYou);
