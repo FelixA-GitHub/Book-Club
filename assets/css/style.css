@@ -25,6 +25,15 @@ body {
   color: var(--tertiary-color);
 }
 
+a {
+  color: var(--secondary-color);
+}
+
+a:hover {
+  text-shadow: none;
+  text-decoration: none;
+}
+
 /* ///////////////// */
 /* buttons */
 /* ///////////////// */
@@ -90,10 +99,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
   background: var(--primary-color);
-  color: var(--secondary-color);
   border-radius: 15px;
-  text-shadow: none;
-  text-decoration: none;
 }
 
 /* ///////////////// */
