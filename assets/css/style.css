@@ -26,6 +26,23 @@ body {
 }
 
 /* ///////////////// */
+/* buttons */
+/* ///////////////// */
+
+.btn {
+  border-radius: 1.5rem;
+  background-color: var(--tertiary-color);
+  color: var(--fourth-color);
+  font-size: larger;
+  margin-top: 2rem;
+  padding: 10px 25px;
+}
+
+.btn:hover {
+  color: var(--fourth-color);
+}
+
+/* ///////////////// */
 /* header section */
 /* ///////////////// */
 
@@ -112,11 +129,8 @@ header nav ul li a:hover {
   filter: drop-shadow(6px 4px 4px lightgrey);
 }
 
-#welcome div div p {
-  padding: 25%;
-  font-size: 20px;
-  font-weight: lighter;
-  height: inherit;
+#welcome div div.welcome-left {
+  padding-top: 4.5rem;
 }
 
 /* ///////////////// */
@@ -132,15 +146,6 @@ img {
   box-shadow: 0 21px 21px rgb(0 0 0 / 50%);
   width: 325px;
   height: 500px;
-}
-
-#book-of-the-month .btn {
-  border-radius: 1.5rem;
-  background-color: var(--tertiary-color);
-  color: var(--fourth-color);
-  font-size: larger;
-  margin-top: 2rem;
-  padding: 10px 25px;
 }
 
 /* ///////////////// */
